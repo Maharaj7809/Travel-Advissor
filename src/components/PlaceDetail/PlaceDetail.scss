@@ -1,0 +1,33 @@
+.MapPlace{
+
+  height: 95vh;
+  width: 68vw;
+  margin-top: 15px;
+  border: 2px solid blue;
+  
+}
+.paper{
+
+
+  padding: 10px;
+   display: flex;
+    flex-Direction: column;
+     justify-Content: center;
+      width: 100px;
+      height: 10px;
+
+>img{
+   cursor: pointer;
+}
+
+}
+.markerContainer {
+  position: absolute;
+   transform: translate(-50%, -50%);
+    z-index: 1;
+ 
+}
+.markerContainer:hover{
+  z-index: 2;
+}
+ 

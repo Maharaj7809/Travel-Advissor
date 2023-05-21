@@ -1,0 +1,40 @@
+.nav{
+    z-index: 1000;
+    background-color: rgb(96, 84, 126);
+    color: white;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+       align-items:center;
+    border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+       height: 25px ;
+
+
+}
+
+.searchbox{
+    display :flex;
+    align-items: center;
+    justify-content: center;
+   gap: 10px;
+
+
+
+
+   
+}
+
+.searchbox >input{
+    border: 1px solid rgba(128, 128, 128, 0.76);
+    width: 30vmax;
+    font-size: 1.5vmax;
+    outline: none;
+    color:rgb(61, 61, 61);
+    font-weight: 100;
+
+    
+  }
+ 
+
+  
